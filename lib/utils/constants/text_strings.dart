@@ -55,6 +55,8 @@ class RTexts {
   static const String verificationCode = "verification code";
   static const String reSendEmail = "ReSend Email";
   static const String reSendEmailIn = "ReSend Email In";
+  static const String rContinue = "Continue";
+
 
   // Home
   static const String homeAppbarTitle = "Good day for shooping";

@@ -1,8 +1,10 @@
+import 'package:ecommerce/features/authentication/screens/signup/verify_email.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../utils/constants/sizes.dart';
-import '../../../../utils/constants/text_strings.dart';
+import '../../../../../utils/constants/sizes.dart';
+import '../../../../../utils/constants/text_strings.dart';
 import 'terms_conditions_checkbox.dart';
 
 class RSignupForm extends StatelessWidget {
@@ -75,7 +77,7 @@ class RSignupForm extends StatelessWidget {
         SizedBox(
           width: double.infinity,
           child: ElevatedButton(
-            onPressed: () {},
+            onPressed: () => Get.to(()=> const VerifyEmailScreen()),
             child: const Text(RTexts.createAccount),
           ),
         )

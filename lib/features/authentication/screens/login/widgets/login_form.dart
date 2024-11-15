@@ -1,4 +1,4 @@
-import 'package:ecommerce/features/authentication/screens/signup_widgets/signup.dart';
+import 'package:ecommerce/features/authentication/screens/signup/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
