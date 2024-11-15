@@ -25,10 +25,14 @@ class RTexts {
   static const String changeYourPasswordSubTitle =
       "Your Account Security is our priority! We've sent you a secure link to safely Change Your Passowrd and keep your account protected";
   static const String confirmEmail = 'Verify your email address!';
-  static const String confirmEmailSubTitle = 'Congratulations! Your Account Awaits: Verify Your Email to start shopping and Experience a world of Unrivaled Deals and Personalized Offers.';
-  static const String emailNotReceivedMessage = "Didn't get the email? check your junk/spam or resend it.";
-  static const String yourAccountCreatedTitle = "Your account successfully created!";
-  static const String yourAccountCreatedSubTitle = "Welcome to your Ultimate Shopping Destination: Your Account is created, Unleash the Joy of Seamless Online Shopping!";
+  static const String confirmEmailSubTitle =
+      'Congratulations! Your Account Awaits: Verify Your Email to start shopping and Experience a world of Unrivaled Deals and Personalized Offers.';
+  static const String emailNotReceivedMessage =
+      "Didn't get the email? check your junk/spam or resend it.";
+  static const String yourAccountCreatedTitle =
+      "Your account successfully created!";
+  static const String yourAccountCreatedSubTitle =
+      "Welcome to your Ultimate Shopping Destination: Your Account is created, Unleash the Joy of Seamless Online Shopping!";
 
   // Authentication Headings Text
   static const String firstName = "First Name";
@@ -46,6 +50,7 @@ class RTexts {
   static const String orSignUpWith = "or sign up with";
   static const String iAgreeTo = "I agree to";
   static const String privacyPolicy = "privacy  Policy";
+  static const String and = "and";
   static const String termsOfUse = "Terms of use";
   static const String verificationCode = "verification code";
   static const String reSendEmail = "ReSend Email";

@@ -1,4 +1,6 @@
+import 'package:ecommerce/features/authentication/screens/signup_widgets/signup.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../../utils/constants/sizes.dart';
@@ -70,7 +72,7 @@ class RLoginForm extends StatelessWidget {
             SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: () {}, child: const Text(RTexts.createAccount))),
+                    onPressed: () => Get.to(()=>const SignupScreen()), child: const Text(RTexts.createAccount))),
           ],
         ),
       ),
