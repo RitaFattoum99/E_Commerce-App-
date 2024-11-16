@@ -34,7 +34,7 @@ class RTexts {
   static const String yourAccountCreatedSubTitle =
       "Welcome to your Ultimate Shopping Destination: Your Account is created, Unleash the Joy of Seamless Online Shopping!";
 
-  // Authentication Headings Text
+  // Authentication Form Text
   static const String firstName = "First Name";
   static const String lastName = "Last Name";
   static const String email = "E-Mail";
@@ -56,6 +56,9 @@ class RTexts {
   static const String reSendEmail = "ReSend Email";
   static const String reSendEmailIn = "ReSend Email In";
   static const String rContinue = "Continue";
+  static const String submit = "Submit";
+  static const String done = "Done";
+  
 
 
   // Home
