@@ -47,13 +47,13 @@ class ResetPassword extends StatelessWidget {
               SizedBox(
                 width: double.infinity,
                 child: ElevatedButton(
-                    onPressed: (){}, child: const Text(RTexts.done)),
+                    onPressed: () {}, child: const Text(RTexts.done)),
               ),
               const SizedBox(height: RSizes.spaceBtwItems),
-               SizedBox(
+              SizedBox(
                 width: double.infinity,
                 child: TextButton(
-                    onPressed: (){}, child: const Text(RTexts.reSendEmail)),
+                    onPressed: () {}, child: const Text(RTexts.reSendEmail)),
               ),
             ],
           ),
